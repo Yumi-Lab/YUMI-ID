@@ -78,14 +78,14 @@
 ###
 
 
-<h6 align="left">Run the Script: Execute the script by running the following command:</h6>
+<h6 align="left">3-Run the Script: Execute the script by running the following command:</h6>
 
 <p align="left">./install-yumi-id.sh</p>
 
 ###
 
-<h6 align="left">Follow On-Screen Instructions: The script will guide you through the installation process. It will check for dependencies, clone the YUMI-ID repository, install project dependencies, and provide instructions for starting the server.</h6>
+<h6 align="left">4-Follow On-Screen Instructions: The script will guide you through the installation process. It will check for dependencies, clone the YUMI-ID repository, install project dependencies, and provide instructions for starting the server.</h6>
 
 ###
 
-<h6 align="left">Start the Server: After the script completes successfully, follow the instructions provided to start the server. Typically, this involves navigating into the YUMI-ID directory and running the server using npm run start command.</h6>
+<h6 align="left">5-Start the Server: After the script completes successfully, follow the instructions provided to start the server. Typically, this involves navigating into the YUMI-ID directory and running the server using <span>npm run start command</span>.</h6>

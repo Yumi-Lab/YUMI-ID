@@ -61,3 +61,31 @@
 <h6 align="left">Follow the instructions provided by PM2 to configure automatic startup of PM2 when the server boots.</h6>
 
 ###
+
+<h2 align="left">Installation process .sh :</h2>
+
+###
+
+<h6 align="left">1-Download the Script: First, download the shell script (yumi-id-server.sh) to your local machine or server.</h6>
+
+###
+
+
+<h6 align="left">2-Make the Script Executable: Ensure that the script has executable permissions. You can do this by running the following command in the terminal:</h6>
+
+<p align="left">chmod +x yumi-id-server.sh.sh</p>
+
+###
+
+
+<h6 align="left">Run the Script: Execute the script by running the following command:</h6>
+
+<p align="left">./install-yumi-id.sh</p>
+
+###
+
+<h6 align="left">Follow On-Screen Instructions: The script will guide you through the installation process. It will check for dependencies, clone the YUMI-ID repository, install project dependencies, and provide instructions for starting the server.</h6>
+
+###
+
+<h6 align="left">Start the Server: After the script completes successfully, follow the instructions provided to start the server. Typically, this involves navigating into the YUMI-ID directory and running the server using npm run start command.</h6>

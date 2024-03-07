@@ -12,6 +12,10 @@
 
 Cloning the repository:
 ```bash
+sudo dpkg --configure -a
+sudo apt update
+sudo apt upgrade
+sudo apt install npm
 git clone https://github.com/Yumi-Lab/YUMI-ID.git
 ```
 Installing dependencies:

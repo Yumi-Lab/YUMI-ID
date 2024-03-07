@@ -73,7 +73,7 @@
 
 <h6 align="left">2-Make the Script Executable: Ensure that the script has executable permissions. You can do this by running the following command in the terminal:</h6>
 
-<p align="left">chmod +x yumi-id-server.sh.sh</p>
+<p align="left">chmod +x yumi-id-server.sh</p>
 
 ###
 

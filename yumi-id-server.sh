@@ -30,13 +30,13 @@ fi
 # Install project dependencies
 npm install || { echo "Failed to install project dependencies."; exit 1; }
 
+# Start the server with pm2
+pm2 start "$(pwd)/node_modules/.bin/nodemon" --name "YUMI-ID"
+
 # Inform the user about the successful setup
 echo "The setup was successful!"
-echo "You are now ready to start the server."
+echo "The server has been started using PM2."
 
 # Provide instructions for the user
-echo "To start the server, run the following commands:"
-echo "1. Change directory to YUMI-ID:"
-echo "   cd YUMI-ID"
-echo "2. Start the server:"
-echo "   npm run start"
+echo "To manage the server with PM2, you can use commands like 'pm2 status', 'pm2 logs YUMI-ID', etc."
+

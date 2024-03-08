@@ -13,21 +13,9 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const logFilePath = path.join(__dirname, 'logs.json');
-
 const devices = {};
-let idShortCounter = 0;
-
-try {
-    const logs = JSON.parse(fs.readFileSync(logFilePath));
-    if (logs.length > 0) {
-        idShortCounter = Math.max(...logs.map(log => parseInt(log.idShort)));
-    }
-} catch (error) {
-    console.error('Error reading logs:', error);
-}
-
-idShortCounter++;
+let idShortCounter = 0; 
+const logFilePath = path.join(__dirname, 'logs.json');
 
 if (!fs.existsSync(logFilePath)) {
     fs.writeFileSync(logFilePath, '[]');
@@ -160,7 +148,7 @@ function shouldSaveFile(filePath, newFileHash) {
 
 
 function generateSequentialShortId() {
-    const id = String(idShortCounter++).padStart(8, '0');
+    const id = String(++idShortCounter).padStart(8, '0');
     console.log('Generated ID:', id);
     return id.toUpperCase();
 }

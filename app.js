@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
+const { generateSequentialShortId } = require('./id_counter');
 
 const app = express();
 
@@ -13,8 +14,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const devices = {};
-let idShortCounter = 0; 
 const logFilePath = path.join(__dirname, 'logs.json');
 
 if (!fs.existsSync(logFilePath)) {
@@ -31,9 +30,7 @@ function generateFolderTree(folderPath) {
 
 function getListSubDirectory(folderName) {
     const folderPath = path.join(__dirname, 'users_config', folderName);
-
     const contents = fs.readdirSync(folderPath);
-
     const subfolders = [];
     const files = [];
 
@@ -145,13 +142,5 @@ function shouldSaveFile(filePath, newFileHash) {
     const existingFileHash = crypto.createHash('md5').update(existingFileContent).digest('hex');
     return newFileHash !== existingFileHash; 
 }
-
-
-function generateSequentialShortId() {
-    const id = String(++idShortCounter).padStart(8, '0');
-    console.log('Generated ID:', id);
-    return id.toUpperCase();
-}
-
 
 module.exports = app;

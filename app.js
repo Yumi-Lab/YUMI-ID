@@ -58,9 +58,10 @@ function getListSubDirectory(folderName) {
 }
 
 function generateSequentialShortId() {
-    idShortCounter++;
+    const macCount = logs.length;
+    const idShort = String(macCount + 1).padStart(8, '0');
     saveIdCounter();
-    return String(idShortCounter).padStart(8, '0').toUpperCase();
+    return idShort.toUpperCase();
 }
 
 

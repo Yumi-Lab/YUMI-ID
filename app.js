@@ -4,17 +4,26 @@ const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
-const { generateSequentialShortId } = require('./id_counter');
+const { loadIdCounter, saveIdCounter } = require('./id_counter');
 
 const app = express();
+
+const counterFilePath = path.join(__dirname, 'id_counter.json');
+const logFilePath = path.join(__dirname, 'logs.json');
+
+let idShortCounter = 0;
+
+let logs = [];
+if (fs.existsSync(logFilePath)) {
+    logs = JSON.parse(fs.readFileSync(logFilePath));
+}
+loadIdCounter();
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-const logFilePath = path.join(__dirname, 'logs.json');
 
 if (!fs.existsSync(logFilePath)) {
     fs.writeFileSync(logFilePath, '[]');
@@ -47,6 +56,13 @@ function getListSubDirectory(folderName) {
 
     return { subfolders, files };
 }
+
+function generateSequentialShortId() {
+    idShortCounter++;
+    saveIdCounter();
+    return String(idShortCounter).padStart(8, '0').toUpperCase();
+}
+
 
 app.post('/route_testing', upload.single('file'), (req, res) => {
     try {

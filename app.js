@@ -13,6 +13,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+const logFilePath = path.join(__dirname, 'logs.json');
+
 const devices = {};
 let idShortCounter = 0;
 
@@ -26,8 +28,6 @@ try {
 }
 
 idShortCounter++;
-
-const logFilePath = path.join(__dirname, 'logs.json');
 
 if (!fs.existsSync(logFilePath)) {
     fs.writeFileSync(logFilePath, '[]');

@@ -56,9 +56,19 @@ function getListSubDirectory(folderName) {
 }
 
 function generateSequentialShortId() {
-    const macCount = logs.length;
-    const idShort = String(macCount + 1).padStart(8, '0');
-    saveIdCounter();
+    let idShortCounter = 1;
+    let idShort = String(idShortCounter).padStart(8, '0');
+
+    // Buscar si el ID corto generado ya existe en logs.json
+    const existingIds = logs.map(log => log.idShort);
+    while (existingIds.includes(idShort)) {
+        idShortCounter++;
+        idShort = String(idShortCounter).padStart(8, '0');
+    }
+
+    // Actualizar el contador en id_counter.json
+    saveIdCounter(idShortCounter);
+
     return idShort.toUpperCase();
 }
 

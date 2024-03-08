@@ -4,14 +4,12 @@ const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
-const { loadIdCounter, saveIdCounter, idShortCounter } = require('./id_counter');
+const { loadIdCounter, saveIdCounter } = require('./id_counter');
 
 const app = express();
 
 const counterFilePath = path.join(__dirname, 'id_counter.json');
 const logFilePath = path.join(__dirname, 'logs.json');
-
-let idShortCounter = 0;
 
 let logs = [];
 if (fs.existsSync(logFilePath)) {

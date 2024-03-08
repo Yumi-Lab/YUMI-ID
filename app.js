@@ -16,6 +16,17 @@ app.use(bodyParser.json());
 const devices = {};
 let idShortCounter = 0;
 
+try {
+    const logs = JSON.parse(fs.readFileSync(logFilePath));
+    if (logs.length > 0) {
+        idShortCounter = Math.max(...logs.map(log => parseInt(log.idShort)));
+    }
+} catch (error) {
+    console.error('Error reading logs:', error);
+}
+
+idShortCounter++;
+
 const logFilePath = path.join(__dirname, 'logs.json');
 
 if (!fs.existsSync(logFilePath)) {
@@ -149,7 +160,7 @@ function shouldSaveFile(filePath, newFileHash) {
 
 
 function generateSequentialShortId() {
-    const id = String(++idShortCounter).padStart(8, '0');
+    const id = String(idShortCounter++).padStart(8, '0');
     console.log('Generated ID:', id);
     return id.toUpperCase();
 }

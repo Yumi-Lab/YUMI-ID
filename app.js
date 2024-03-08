@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
-const { loadIdCounter, saveIdCounter } = require('./id_counter');
+const { loadIdCounter, saveIdCounter, idShortCounter } = require('./id_counter');
 
 const app = express();
 

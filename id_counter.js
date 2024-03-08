@@ -3,6 +3,8 @@ const path = require('path');
 
 const counterFilePath = path.join(__dirname, 'id_counter.json');
 
+let idShortCounter = 0;
+
 function loadIdCounter() {
     if (fs.existsSync(counterFilePath)) {
         const counterData = JSON.parse(fs.readFileSync(counterFilePath));
@@ -17,4 +19,4 @@ function saveIdCounter() {
     fs.writeFileSync(counterFilePath, JSON.stringify(counterData, null, 2));
 }
 
-module.exports = { loadIdCounter, saveIdCounter };
+module.exports = { loadIdCounter, saveIdCounter, idShortCounter };

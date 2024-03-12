@@ -1,3 +1,11 @@
+# Ignore Node.js modules
 node_modules/
+
+# Ignore environment variables file
 .env
-.printer.cfg
+
+# Ignore printer configuration file
+printer.cfg
+
+# Ignore test directory
+test/

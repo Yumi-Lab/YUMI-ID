@@ -9,3 +9,10 @@ printer.cfg
 
 # Ignore test directory
 test/
+
+# Ignore users_config
+users_config/
+
+# Ignore json 
+utils/id_counter.json
+utils/logs.json

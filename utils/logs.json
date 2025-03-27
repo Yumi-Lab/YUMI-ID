@@ -1,0 +1,230 @@
+[
+  {
+    "macHash": "250b59495d5d08aa023a45b248e397ee7f2691ca36ff52c3f5ff7313cbb2db2a",
+    "idLong": "108D968EDDF29F5A",
+    "idShort": "0000000001",
+    "timestamp": "2024-03-12T08:38:30.468Z"
+  },
+  {
+    "macHash": "2f3f0b673571d15ac8e919f1d4c194f1219e38495d4e0855060b0199b2b48c8b",
+    "idLong": "1160FDABEA049F00",
+    "idShort": "0000000002",
+    "timestamp": "2024-03-12T08:39:00.518Z"
+  },
+  {
+    "macHash": "a30c31af40c07e8f61b66fe691aac8453cb18dcbcc84bb9579ca7315c65f5d27",
+    "idLong": "6A8FB9B6DFCB8ACC",
+    "idShort": "0000000003",
+    "timestamp": "2024-03-12T10:52:39.936Z"
+  },
+  {
+    "macHash": "2664e224941b02535641d613f9679b1849972215f95f4df830cc85258501800c",
+    "idLong": "2425412D48AC2F67",
+    "idShort": "0000000004",
+    "timestamp": "2024-03-12T10:55:36.995Z"
+  },
+  {
+    "macHash": "0da9c8845646e7515b7e1f335744de506c5c28910f2d57449c0fc148e0ee2ea3",
+    "idLong": "457FC1E576AC6615",
+    "idShort": "0000000005",
+    "timestamp": "2024-03-12T10:56:01.932Z"
+  },
+  {
+    "macHash": "d81b86ce0923a892fd7f64ffafa83666f2f8061c8c4bfd83e214945c7497e499",
+    "idLong": "D43A0074D53DAD43",
+    "idShort": "0000000006",
+    "timestamp": "2024-03-12T10:56:58.511Z"
+  },
+  {
+    "macHash": "38fbdde984330e50c02382e647c576b71f41cc5c45b193d4f3177e6ee8f22a78",
+    "idLong": "B7FFE36A493C612C",
+    "idShort": "0000000007",
+    "timestamp": "2024-03-12T14:10:18.273Z"
+  },
+  {
+    "macHash": "1c3291f5375d3fcc4acb4f6ddca19678498765fb1e1d8c1d42f66fe84d177417",
+    "idLong": "CE70E5568B13AA8B",
+    "idShort": "0000000008",
+    "timestamp": "2024-03-13T02:19:45.883Z"
+  },
+  {
+    "macHash": "5703c3a90a874e80a42d6ecb371c36c6bd693070cf52f5a17d44393124daf998",
+    "idLong": "5468B5155D68A6EB",
+    "idShort": "0000000009",
+    "timestamp": "2024-03-13T14:49:41.863Z"
+  },
+  {
+    "macHash": "72409ebd527814d507b3544694d68f06cb520b411b84a19902dbe77f125feeb7",
+    "idLong": "C599FDDBAD3108EC",
+    "idShort": "0000000010",
+    "timestamp": "2024-03-14T09:06:18.836Z"
+  },
+  {
+    "macHash": "cabac7844759bf20b010bdc6034796a6493a0ac8f325c6dd2866ec2363258d89",
+    "idLong": "5C69BFE94561CC4D",
+    "idShort": "0000000011",
+    "timestamp": "2024-03-15T22:24:00.327Z"
+  },
+  {
+    "macHash": "5fdd499342b36d74472837990eb85fd3f125d909d3efd0abe6ac272b82f736b4",
+    "idLong": "A27BE209C58FDA2F",
+    "idShort": "0000000012",
+    "timestamp": "2024-03-22T04:16:50.008Z"
+  },
+  {
+    "macHash": "240fa3c10c4cbf0a1faadeac79df2e08968601da747168207a82743dc19658a7",
+    "idLong": "41E1FEB40AFFCB6F",
+    "idShort": "0000000013",
+    "timestamp": "2024-03-22T08:43:45.390Z"
+  },
+  {
+    "macHash": "5ebbda069564b1224557057d3fd9af97291865f88a1c7b7b0b1af44e0fbe5243",
+    "idLong": "8DF297F682E23EC6",
+    "idShort": "0000000014",
+    "timestamp": "2024-03-25T05:47:29.932Z"
+  },
+  {
+    "macHash": "d1c303a7fbd83b7343491c05582eb5fcf7ce742f033eb87e4a7b5cae0f203a7e",
+    "idLong": "7369689ADD82254F",
+    "idShort": "0000000015",
+    "timestamp": "2024-03-25T07:23:11.546Z"
+  },
+  {
+    "macHash": "aeb25630c86dfe49efa84f00c4747ce5a71362e5cef983ea2920dee062638ae2",
+    "idLong": "F2FFF87B6B7B4169",
+    "idShort": "0000000016",
+    "timestamp": "2024-04-25T05:57:30.800Z"
+  },
+  {
+    "macHash": "39ad449675f1cdefb7125bdedf6db2abc94b555f0368b85c67d08f616eb5136c",
+    "idLong": "B9D0F0670AFE48C2",
+    "idShort": "0000000017",
+    "timestamp": "2024-04-27T12:31:13.741Z"
+  },
+  {
+    "macHash": "f3f9c491c7576b4d12a2eece9649b22140ff148a15129b5a6bf99402863a70af",
+    "idLong": "CBF4EB899A793CA2",
+    "idShort": "0000000018",
+    "timestamp": "2024-05-02T18:19:05.108Z"
+  },
+  {
+    "macHash": "7b5c9857f8b82dbe41778538ec6d02d8b491c6a26fb65b62d7b98a736f629e14",
+    "idLong": "2596E852BEC63FA0",
+    "idShort": "0000000019",
+    "timestamp": "2024-05-04T22:45:54.942Z"
+  },
+  {
+    "macHash": "b982257cc059dccb22b7acd785888ebb335c0db77829e2be591b32da28b440db",
+    "idLong": "4F1D8F8C8531427E",
+    "idShort": "0000000020",
+    "timestamp": "2024-05-09T19:14:02.618Z"
+  },
+  {
+    "macHash": "5663749b4cd1fa1fe3ca352facb6c81f32497429468577970e30b5fc805bc9c5",
+    "idLong": "2081FC98AE2C7F76",
+    "idShort": "0000000021",
+    "timestamp": "2024-05-20T06:10:10.925Z"
+  },
+  {
+    "macHash": "77602d30f3727a5404355c8402b75fde178fc705834dd335a85c15a6ff478172",
+    "idLong": "DD0C6E5C03DA127F",
+    "idShort": "0000000022",
+    "timestamp": "2024-05-22T04:05:34.877Z"
+  },
+  {
+    "macHash": "f1351ae2b9412cb5d61e2f1a650fe929b6b00cea71004846efda198ca46c7833",
+    "idLong": "3962869DE4A52484",
+    "idShort": "0000000023",
+    "timestamp": "2024-05-24T01:18:29.914Z"
+  },
+  {
+    "macHash": "4b8116d50d1a44d2ebf7e181d02329da6e618e9fdde8249cb2c37ad3363bc31a",
+    "idLong": "077E958E37B72333",
+    "idShort": "0000000024",
+    "timestamp": "2024-06-26T00:26:04.887Z"
+  },
+  {
+    "macHash": "eb996210cf9c5dd57f5c731e9047a43318c3f129e8d6ec396f8331370c6efda1",
+    "idLong": "F78AA8A6135A40B8",
+    "idShort": "0000000025",
+    "timestamp": "2024-06-26T15:55:03.859Z"
+  },
+  {
+    "macHash": "e6fa870b6d7590eaa69eb893dfb883e98cd513bffa14b898d3fbec7151aea3e6",
+    "idLong": "348A3DB8CFCA7AA9",
+    "idShort": "0000000026",
+    "timestamp": "2024-06-29T11:38:14.937Z"
+  },
+  {
+    "macHash": "b284c26491cc9814fe5bc876563b63c56ef5db503b2bb0f72c778f81f82a1f19",
+    "idLong": "BDD24200C676FAEF",
+    "idShort": "0000000027",
+    "timestamp": "2024-07-02T23:41:05.320Z"
+  },
+  {
+    "macHash": "e79a575cd156a7e64300d8bce42854e5f5f633f8e0da991601679066bb85c321",
+    "idLong": "A1E7009E0426CF83",
+    "idShort": "0000000028",
+    "timestamp": "2024-07-07T19:07:44.899Z"
+  },
+  {
+    "macHash": "99951e381252c2035ef4831910e2307293864b2afc444d7eca9d061c93028a0d",
+    "idLong": "8DF56414B3A0F79C",
+    "idShort": "0000000029",
+    "timestamp": "2024-07-10T03:27:21.838Z"
+  },
+  {
+    "macHash": "d6a2ec32beacc4c4277687c4e90fd39423c9b8ddd8ba0941595e8ffc74d676ba",
+    "idLong": "8846EB643F069772",
+    "idShort": "0000000030",
+    "timestamp": "2024-07-19T13:04:20.143Z"
+  },
+  {
+    "macHash": "eb24aeb0e8e9e408b7e4aa4e100d27446b88065d8960594873db8fb110cc6711",
+    "idLong": "2FD1779F4807C341",
+    "idShort": "0000000031",
+    "timestamp": "2024-07-29T19:01:35.477Z"
+  },
+  {
+    "macHash": "768fb55c9c09cee80741aab5d7a6eebb65d1fb39af8e5b4fadae4aa04b61acf5",
+    "idLong": "26E0CFCEDABB7EE0",
+    "idShort": "0000000032",
+    "timestamp": "2024-08-01T07:26:22.518Z"
+  },
+  {
+    "macHash": "e278e529ab0ba15ae625a375f427b0b34eb2bb4e0a0e5d273572ce1c3592f160",
+    "idLong": "02261DAF738AED52",
+    "idShort": "0000000033",
+    "timestamp": "2024-08-11T09:32:22.147Z"
+  },
+  {
+    "macHash": "62865f7f5a8e050e955080bd5ce36f5a2680d7ac511b4b1c3fdd0da78297a89f",
+    "idLong": "608435CA07788CA9",
+    "idShort": "0000000034",
+    "timestamp": "2024-08-20T19:14:07.912Z"
+  },
+  {
+    "macHash": "64d63f07e99255188b2d2b69a976dee4187b047267437943a06c1ce5e2587234",
+    "idLong": "97C8713435E9EB3B",
+    "idShort": "0000000035",
+    "timestamp": "2024-08-25T19:53:46.682Z"
+  },
+  {
+    "macHash": "6702ebc957bb205cedaf8968336bde8e9090a447aa10dba39cb0b128b88113e0",
+    "idLong": "CD6D4E81E3973AC9",
+    "idShort": "0000000036",
+    "timestamp": "2024-09-01T10:18:35.819Z"
+  },
+  {
+    "macHash": "a801a04c573810e072978e0c39a402fc23b52adeb003bc4dc91115aebe523a4c",
+    "idLong": "9149CD70A789C871",
+    "idShort": "0000000037",
+    "timestamp": "2024-09-04T03:48:03.870Z"
+  },
+  {
+    "macHash": "f6cd0dcb1f94fc38b2fa6f852f9e4e8261b86dbe157e32f53a9a481555c0ff47",
+    "idLong": "84AFA280B11AB3FE",
+    "idShort": "0000000038",
+    "timestamp": "2024-09-07T15:15:37.237Z"
+  }
+]
